@@ -33,3 +33,10 @@
 
 # Backup files
 *~
+
+tests/
+maxsat/
+maxsat*
+msu3*
+solver*
+with*
