@@ -40,7 +40,7 @@ private:
   vec<Var> assumption_variables; // Minisat vector to store the assumption
                                  // variables for each relaxation
   vec<Lit> assumptions; // Minisat vector to store the assumption literals
-  vec<vec<Var>> encoded_variables; // Vec of Vecs to store the encoding
+  vec< vec<Var> > encoded_variables; // Vec of Vecs to store the encoding
                                    // variables for sequential encoding
   RetVal solve_with_relaxation(
       int); // to solve the formula by relaxing a fixed number of clauses

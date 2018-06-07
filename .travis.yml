@@ -1,14 +1,6 @@
 language: cpp
-sudo: required
+compiler:
+    - g++
 script:
-  - sudo unlink /usr/bin/gcc && sudo ln -s /usr/bin/gcc-5 /usr/bin/gcc
-  - sudo unlink /usr/bin/g++ && sudo ln -s /usr/bin/g++-5 /usr/bin/g++
-  - make
-  - make clean
-addons:
-  apt:
-    sources:
-    - ubuntu-toolchain-r-test
-    packages:
-    - gcc-5
-    - g++-5
+    - make
+    - make clean
