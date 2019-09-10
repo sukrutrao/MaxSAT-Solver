@@ -1,6 +1,6 @@
 # MaxSAT Solver
 
-[![Build Status](https://travis-ci.com/GoodDeeds/MaxSAT-Solver.svg?branch=master)](https://travis-ci.com/GoodDeeds/MaxSAT-Solver)
+[![Build Status](https://travis-ci.com/sukrutrao/MaxSAT-Solver.svg?branch=master)](https://travis-ci.com/sukrutrao/MaxSAT-Solver)
 
 A unweighted MaxSAT Solver that uses Minisat2.2 as its backbone.
 
@@ -18,7 +18,7 @@ This solver implements Sequential Encoding to encode cardinality constraints and
 
 * Clone the repository
 ```
-$ git clone --recurse-submodules https://github.com/GoodDeeds/MaxSAT-Solver.git
+$ git clone --recurse-submodules https://github.com/sukrutrao/MaxSAT-Solver.git
 $ cd MaxSAT-Solver
 ```
 
@@ -70,9 +70,9 @@ Here, the 5 clauses in the formula are satisfiable. Variable `2` is assigned tru
 This project is licensed under the [MIT License](LICENSE). This project uses Minisat2.2, whose license can be found [here](https://github.com/niklasso/minisat/blob/eb01ad68b75bb3b34ff8657c37ad6a31faae0fc3/LICENSE).
 
 ## Author
-[Sukrut Rao](https://github.com/GoodDeeds/)
+[Sukrut Rao](https://sukrutrao.github.io)
 
-For any issues, queries, or suggestions, please [open an issue](https://github.com/GoodDeeds/MaxSAT-Solver/issues/new).
+For any issues, queries, or suggestions, please [open an issue](https://github.com/sukrutrao/MaxSAT-Solver/issues/new).
 
 ---
 
